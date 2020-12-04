@@ -32,8 +32,7 @@ for passport in inputs:
     one_passport = {}
     # Check if blank line, meaning one whole passport was viewed
     # ans, one_passport = passport_check(one_passport, ans)
-    values_inline = passport.split(" ")
-    for fields in values_inline:
+    for fields in passport.split(" "):
         field, val = fields.split(":")
         one_passport[field] = val
     one_passport["cid"] = 0
