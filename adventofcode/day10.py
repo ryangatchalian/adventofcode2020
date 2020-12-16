@@ -1,4 +1,4 @@
-inputs = [int(line.strip().replace('\n',' ')) for line in open('day10-input.txt', 'r').read().split('\n')]
+inputs = [int(line) for line in open('day10-input.txt', 'r').read().split('\n')]
 combo = [1, 1, 2]
 
 
